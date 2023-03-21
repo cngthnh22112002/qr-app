@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homepage"
+        android:title="Trang chủ"
+        android:icon="@drawable/ic_baseline_home"
+        />
+
+    <item
+        android:id="@+id/store"
+        android:title="Cửa hàng"
+        android:icon="@drawable/ic_baseline_store"/>
+
+    <item
+        android:id="@+id/scan"
+        android:title="Quét mã"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"/>
+
+    <item
+        android:id="@+id/buy"
+        android:title="Mua hàng"
+        android:icon="@drawable/ic_baseline_local_grocery_store_24" />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24" />
+
+</menu>

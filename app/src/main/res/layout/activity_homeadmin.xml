@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.ui.AdminActivity">
+
+    <RelativeLayout
+        android:id="@+id/admin_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TRÌNH ĐIỀU KHIỂN CỦA ADMIN"
+            android:textColor="@color/theme"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnInsertData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập dữ liệu"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/lognbutton"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textView"/>
+
+
+
+        <Button
+            android:id="@+id/btnFetchData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa dữ liệu"
+            android:background="@drawable/lognbutton"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btnInsertData"/>
+
+        <Button
+            android:id="@+id/btn_genQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tạo mã QR"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/lognbutton"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/btnFetchData"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/lognbutton"
+            android:layout_below="@id/btn_genQR"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
